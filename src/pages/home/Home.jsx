@@ -6,6 +6,7 @@ function Home() {
   return (
     <main>
       <LogoSection />
+      <ProductsSection alignment="left" />
       <ProductsSection />
     </main>
   );
