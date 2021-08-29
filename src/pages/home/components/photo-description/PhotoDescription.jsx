@@ -20,6 +20,10 @@ function PhotoDescription({ revert }) {
           loren ipsum dolor sit amet loren ipsum dolor sit amet loren ipsum
           dolor sit amet loren ipsum dolor sit amet
         </p>
+        <p>
+          loren ipsum dolor sit amet loren ipsum dolor sit amet loren ipsum
+          dolor sit amet loren ipsum dolor sit amet
+        </p>
       </div>
     </section>
   );

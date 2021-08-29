@@ -6,7 +6,19 @@
   display: flex;
   align-items: center;
   position: relative;
-  backdrop-filter: brightness(1.2);
+
+  &.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.51);
+    background-size: 100%;
+    z-index: -1;
+    background-image: url("../../../../assets/main-page.jpg");
+  }
 
   .heading {
     margin-left: 80px;
@@ -19,6 +31,7 @@
     justify-content: center;
     gap: 10px;
     height: 100%;
+    box-sizing: border-box;
     backdrop-filter: brightness(0.5) hue-rotate(120deg);
 
     h1 {
