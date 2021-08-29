@@ -3,6 +3,7 @@ import LogoSection from "./components/logo-section";
 import PhotoDescription from "./components/photo-description";
 import Products from "./components/products";
 import SectionHeader from "../../components/common/section-header";
+import Galery from "./components/galery";
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <LogoSection />
       <PhotoDescription />
       <PhotoDescription revert />
+      <Galery />
       <SectionHeader heading="Наші товари" />
       <Products />
       <PhotoDescription />
